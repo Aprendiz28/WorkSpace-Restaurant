@@ -1,9 +1,4 @@
-<!--  Author Name: MH RONY.
-                        GigHub Link: https://github.com/dev-mhrony
-                        Facebook Link:https://www.facebook.com/dev.mhrony
-                        Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-                        for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com  
-                        Visit My Website : developerrony.com -->
+
 <!DOCTYPE html>
 <html lang="en">
 <?php
@@ -11,13 +6,6 @@ include("connection/connect.php");
 error_reporting(0);
 session_start();
 ?>
-<!--  Author Name: MH RONY.
-                        GigHub Link: https://github.com/dev-mhrony
-                        Facebook Link:https://www.facebook.com/dev.mhrony
-                        Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-                        for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com  
-                        Visit My Website : developerrony.com -->
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -60,13 +48,6 @@ session_start();
 							}
 
 						?>
-                        <!--  Author Name: MH RONY.
-                        GigHub Link: https://github.com/dev-mhrony
-                        Facebook Link:https://www.facebook.com/dev.mhrony
-                        Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-                        for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com  
-                        Visit My Website : developerrony.com -->
-
                     </ul>
                 </div>
             </div>
@@ -92,13 +73,6 @@ session_start();
                 </div>
             </div>
         </div>
-        <!--  Author Name: MH RONY.
-                        GigHub Link: https://github.com/dev-mhrony
-                        Facebook Link:https://www.facebook.com/dev.mhrony
-                        Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-                        for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com  
-                        Visit My Website : developerrony.com -->
-
         <section class="restaurants-page">
             <div class="container">
                 <div class="row">
@@ -144,15 +118,6 @@ session_start();
 
 
                     </div>
-
-
-                    <!--  Author Name: MH RONY.
-                        GigHub Link: https://github.com/dev-mhrony
-                        Facebook Link:https://www.facebook.com/dev.mhrony
-                        Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-                        for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com  
-                        Visit My Website : developerrony.com -->
-
                 </div>
             </div>
     </div>
@@ -169,11 +134,4 @@ session_start();
     <script src="js/headroom.js"></script>
     <script src="js/foodpicky.min.js"></script>
 </body>
-<!--  Author Name: MH RONY.
-                        GigHub Link: https://github.com/dev-mhrony
-                        Facebook Link:https://www.facebook.com/dev.mhrony
-                        Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-                        for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com  
-                        Visit My Website : developerrony.com -->
-
 </html>

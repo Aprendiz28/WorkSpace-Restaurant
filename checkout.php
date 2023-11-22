@@ -65,12 +65,7 @@ else{
 </head>
 
 <body>
-    <!--  Author Name: MH RONY.
-                        GigHub Link: https://github.com/dev-mhrony
-                        Facebook Link:https://www.facebook.com/dev.mhrony
-                        Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-                        for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com  
-                        Visit My Website : developerrony.com -->
+    
     <div class="site-wrapper">
         <header id="header" class="header-scroll top-header headrom">
             <nav class="navbar navbar-dark">
@@ -97,12 +92,7 @@ else{
 							}
 
 						?>
-                            <!--  Author Name: MH RONY.
-                        GigHub Link: https://github.com/dev-mhrony
-                        Facebook Link:https://www.facebook.com/dev.mhrony
-                        Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-                        for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com  
-                        Visit My Website : developerrony.com -->
+                        
                         </ul>
                     </div>
                 </div>
@@ -128,14 +118,6 @@ else{
 
             </div>
 
-
-            <!--  Author Name: MH RONY.
-                        GigHub Link: https://github.com/dev-mhrony
-                        Facebook Link:https://www.facebook.com/dev.mhrony
-                        Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-                        for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com  
-                        Visit My Website : developerrony.com -->
-
             <div class="container m-t-30">
                 <form action="" method="post">
                     <div class="widget clearfix">
@@ -154,13 +136,6 @@ else{
                                                 <table class="table">
                                                     <tbody>
 
-                                                        <!--  Author Name: MH RONY.
-                        GigHub Link: https://github.com/dev-mhrony
-                        Facebook Link:https://www.facebook.com/dev.mhrony
-                        Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-                        for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com  
-                        Visit My Website : developerrony.com -->
-
                                                         <tr>
                                                             <td>Cart Subtotal</td>
                                                             <td> <?php echo "$".$item_total; ?></td>
@@ -174,15 +149,6 @@ else{
                                                             <td class="text-color"><strong> <?php echo "$".$item_total; ?></strong></td>
                                                         </tr>
                                                     </tbody>
-
-                                                    <!--  Author Name: MH RONY.
-                        GigHub Link: https://github.com/dev-mhrony
-                        Facebook Link:https://www.facebook.com/dev.mhrony
-                        Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-                        for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com  
-                        Visit My Website : developerrony.com -->
-
-
                                                 </table>
                                             </div>
                                         </div>
@@ -208,12 +174,6 @@ else{
         </div>
         </form>
     </div>
-    <!--  Author Name: MH RONY.
-                        GigHub Link: https://github.com/dev-mhrony
-                        Facebook Link:https://www.facebook.com/dev.mhrony
-                        Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-                        for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com  
-                        Visit My Website : developerrony.com -->
     <?php include "include/footer.php" ?>
     </div>
     </div>
@@ -229,18 +189,6 @@ else{
 </body>
 
 </html>
-<!--  Author Name: MH RONY.
-                        GigHub Link: https://github.com/dev-mhrony
-                        Facebook Link:https://www.facebook.com/dev.mhrony
-                        Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-                        for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com  
-                        Visit My Website : developerrony.com -->
 <?php
 }
 ?>
-<!--  Author Name: MH RONY.
-GigHub Link: https://github.com/dev-mhrony
-Facebook Link:https://www.facebook.com/dev.mhrony
-Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com  
-Visit My Website : developerrony.com -->
