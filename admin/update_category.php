@@ -198,7 +198,7 @@ if(isset($_POST['submit'] ))
                                                         <div class="message-center">
 
                                                             <a href="#">
-                                                                <div class="user-img"> <img src="images/bookingSystem/user-icn.png" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
+                                                                <div class="user-img"> <img src="images/bookingSystem/user0-icn.png" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
                                                                 <div class="mail-contnet">
                                                                     <h5>Michael Qin</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:30 AM</span>
                                                                 </div>
@@ -235,7 +235,7 @@ if(isset($_POST['submit'] ))
                                         </li>
 
                                         <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle text-muted  " href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/bookingSystem/user-icn.png" alt="user" class="profile-pic" /></a>
+                                            <a class="nav-link dropdown-toggle text-muted  " href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/bookingSystem/user0-icn.png" alt="user" class="profile-pic" /></a>
                                             <div class="dropdown-menu dropdown-menu-right animated zoomIn">
                                                 <ul class="dropdown-user">
                                                     <li><a href="logout.php"><i class="fa fa-power-off"></i> Logout</a></li>
