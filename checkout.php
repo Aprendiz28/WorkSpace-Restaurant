@@ -73,9 +73,9 @@ if (empty($_SESSION["user_id"])) {
                                 width="18%"> </a>
                         <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                             <ul class="nav navbar-nav">
-                                <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span
+                                <li class="nav-item"> <a class="nav-link active" href="index.php">Inicio <span
                                             class="sr-only">(current)</span></a> </li>
-                                <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Restaurants <span
+                                <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Restaurantes<span
                                             class="sr-only"></span></a> </li>
 
                                 <?php
@@ -101,12 +101,10 @@ if (empty($_SESSION["user_id"])) {
                     <div class="container">
                         <ul class="row links">
 
-                            <li class="col-xs-12 col-sm-4 link-item"><span>1</span><a href="restaurants.php">Choose
-                                    Restaurant</a></li>
-                            <li class="col-xs-12 col-sm-4 link-item "><span>2</span><a href="#">Pick Your favorite food</a>
+                            <li class="col-xs-12 col-sm-4 link-item"><span>1</span><a href="restaurants.php">Elige Restaurante</a></li>
+                            <li class="col-xs-12 col-sm-4 link-item "><span>2</span><a href="#">Elige tu comida favorita</a>
                             </li>
-                            <li class="col-xs-12 col-sm-4 link-item active"><span>3</span><a href="checkout.php">Order and
-                                    Pay</a></li>
+                            <li class="col-xs-12 col-sm-4 link-item active"><span>3</span><a href="checkout.php">Ordene y pague</a></li>
                         </ul>
                     </div>
                 </div>
@@ -130,7 +128,7 @@ if (empty($_SESSION["user_id"])) {
                                         <div class="col-sm-12">
                                             <div class="cart-totals margin-b-20">
                                                 <div class="cart-totals-title">
-                                                    <h4>Cart Summary</h4>
+                                                    <h4>Resumen de la compra</h4>
                                                 </div>
                                                 <div class="cart-totals-fields">
 
@@ -138,13 +136,13 @@ if (empty($_SESSION["user_id"])) {
                                                         <tbody>
 
                                                             <tr>
-                                                                <td>Cart Subtotal</td>
+                                                                <td>Subtotal del carrito</td>
                                                                 <td>
                                                                     <?php echo "$" . $item_total; ?>
                                                                 </td>
                                                             </tr>
                                                             <tr>
-                                                                <td>Delivery Charges</td>
+                                                                <td>Gastos de envíos</td>
                                                                 <td>Free</td>
                                                             </tr>
                                                             <tr>
@@ -164,7 +162,7 @@ if (empty($_SESSION["user_id"])) {
                                                             <input name="mod" id="radioStacked1" checked value="COD"
                                                                 type="radio" class="custom-control-input"> <span
                                                                 class="custom-control-indicator"></span> <span
-                                                                class="custom-control-description">Cash on Delivery</span>
+                                                                class="custom-control-description">Contra reembolso</span>
                                                         </label>
                                                     </li>
                                                     <li>

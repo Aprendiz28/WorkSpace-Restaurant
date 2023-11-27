@@ -204,13 +204,7 @@ if (isset($_POST['submit'])) {
 
         <div class="page-wrapper">
             <div style="padding-top: 10px;">
-                <marquee onMouseOver="this.stop()" onMouseOut="this.start()"> <a
-                        href="https://www.youtube.com/@codecampbdofficial">Code Camp BD</a> is the sole owner of this
-                    script. It is not suitable for personal use. And releasing it in demo version. Besides, it is being
-                    provided for free only from <a href="https://www.youtube.com/@codecampbdofficial">Code Camp BD</a>.
-                    For any of your problems contact us on <a href="https://www.youtube.com/@codecampbdofficial">Code
-                        Camp BD</a> facebook group / page or message <a href="https://www.facebook.com/dev.mhrony">MH
-                        RONY</a> on facebook. Thanks for staying with <a
+                <marquee onMouseOver="this.stop()" onMouseOut="this.start()"> <a  
                         href="https://www.youtube.com/@codecampbdofficial">Code Camp BD</a>.</marquee>
             </div>
 
@@ -240,14 +234,14 @@ if (isset($_POST['submit'])) {
                                     <div class="row p-t-20">
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label class="control-label">Restaurant Name</label>
+                                                <label class="control-label">Nombre del restaurante</label>
                                                 <input type="text" name="res_name" class="form-control">
                                             </div>
                                         </div>
 
                                         <div class="col-md-6">
                                             <div class="form-group has-danger">
-                                                <label class="control-label">Bussiness E-mail</label>
+                                                <label class="control-label">Correo electrónico empresarial</label>
                                                 <input type="text" name="email"
                                                     class="form-control form-control-danger">
                                             </div>
@@ -259,14 +253,14 @@ if (isset($_POST['submit'])) {
                                     <div class="row p-t-20">
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label class="control-label">Phone </label>
+                                                <label class="control-label">Teléfono </label>
                                                 <input type="text" name="phone" class="form-control">
                                             </div>
                                         </div>
 
                                         <div class="col-md-6">
                                             <div class="form-group has-danger">
-                                                <label class="control-label">Website URL</label>
+                                                <label class="control-label">URL del sitio web</label>
                                                 <input type="text" name="url" class="form-control form-control-danger">
                                             </div>
                                         </div>
@@ -276,10 +270,10 @@ if (isset($_POST['submit'])) {
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label class="control-label">Open Hours</label>
+                                                    <label class="control-label">Horarios de apertura</label>
                                                     <select name="o_hr" class="form-control custom-select"
                                                         data-placeholder="Choose a Category">
-                                                        <option>--Select your Hours--</option>
+                                                        <option>--Seleccione su horario--</option>
                                                         <option value="6am">6am</option>
                                                         <option value="7am">7am</option>
                                                         <option value="8am">8am</option>
@@ -294,10 +288,10 @@ if (isset($_POST['submit'])) {
 
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label class="control-label">Close Hours</label>
+                                                    <label class="control-label">Horario de cierre</label>
                                                     <select name="c_hr" class="form-control custom-select"
                                                         data-placeholder="Choose a Category">
-                                                        <option>--Select your Hours--</option>
+                                                        <option>----Seleccione su horario---</option>
                                                         <option value="3pm">3pm</option>
                                                         <option value="4pm">4pm</option>
                                                         <option value="5pm">5pm</option>
@@ -318,10 +312,10 @@ if (isset($_POST['submit'])) {
 
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label class="control-label">Open Days</label>
+                                                    <label class="control-label">Días abiertos</label>
                                                     <select name="o_days" class="form-control custom-select"
                                                         data-placeholder="Choose a Category" tabindex="1">
-                                                        <option>--Select your Days--</option>
+                                                        <option>--Seleccione su horario--</option>
                                                         <option value="Mon-Tue">Mon-Tue</option>
                                                         <option value="Mon-Wed">Mon-Wed</option>
                                                         <option value="Mon-Thu">Mon-Thu</option>
@@ -335,7 +329,7 @@ if (isset($_POST['submit'])) {
 
                                             <div class="col-md-6">
                                                 <div class="form-group has-danger">
-                                                    <label class="control-label">Image</label>
+                                                    <label class="control-label">Imagen</label>
                                                     <input type="file" name="file" id="lastName"
                                                         class="form-control form-control-danger" placeholder="12n">
                                                 </div>
@@ -346,7 +340,7 @@ if (isset($_POST['submit'])) {
 
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <label class="control-label">Select Category</label>
+                                                    <label class="control-label">selecciona una categoría</label>
                                                     <select name="c_name" class="form-control custom-select"
                                                         data-placeholder="Choose a Category" tabindex="1">
                                                         <option>--Select Category--</option>
@@ -366,7 +360,7 @@ if (isset($_POST['submit'])) {
 
                                         </div>
 
-                                        <h3 class="box-title m-t-40">Restaurant Address</h3>
+                                        <h3 class="box-title m-t-40">Dirección del restaurante</h3>
                                         <hr>
                                         <div class="row">
                                             <div class="col-md-12 ">

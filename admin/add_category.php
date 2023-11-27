@@ -122,13 +122,13 @@ if (isset($_POST['submit'])) {
         <div class="page-wrapper">
             <div style="padding-top: 10px;">
                 <marquee onMouseOver="this.stop()" onMouseOut="this.start()"> <a
-                        href="https://www.youtube.com/@codecampbdofficial">Code Camp BD</a> is the sole owner of this
+                        href="">Code Camp BD</a> is the sole owner of this
                     script. It is not suitable for personal use. And releasing it in demo version. Besides, it is being
-                    provided for free only from <a href="https://www.youtube.com/@codecampbdofficial">Code Camp BD</a>.
-                    For any of your problems contact us on <a href="https://www.youtube.com/@codecampbdofficial">Code
-                        Camp BD</a> facebook group / page or message <a href="https://www.facebook.com/dev.mhrony">MH
+                    provided for free only from <a href="">Code Camp BD</a>.
+                    For any of your problems contact us on <a href="">Code
+                        Camp BD</a> facebook group / page or message <a href="">MH
                         RONY</a> on facebook. Thanks for staying with <a
-                        href="https://www.youtube.com/@codecampbdofficial">Code Camp BD</a>.</marquee>
+                        href="">Code Camp BD</a>.</marquee>
             </div>
             <div class="container-fluid">
                 <div class="row">
