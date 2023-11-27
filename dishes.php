@@ -181,7 +181,7 @@ include_once 'product-action.php';
                                     ?>
                                     <a href="checkout.php?res_id=<?php echo $_GET['res_id']; ?>&action=check"
                                         class="btn btn-success btn-lg active">Checkout</a>
-                                <?php
+                                    <?php
                                 }
                                 ?>
 

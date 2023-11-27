@@ -5,68 +5,59 @@
                 <?php
 
 
-session_start();
-error_reporting(0);
-include("../connection/connect.php");
+                session_start();
+                error_reporting(0);
+                include("../connection/connect.php");
 
-if(isset($_POST['submit'] ))
-{
-    if(empty($_POST['uname']) ||
-   	    empty($_POST['fname'])|| 
-		empty($_POST['lname']) ||  
-		empty($_POST['email'])||
-		empty($_POST['password'])||
-		empty($_POST['phone']))
-		{
-			$error = '<div class="alert alert-danger alert-dismissible fade show">
+                if (isset($_POST['submit'])) {
+                    if (
+                        empty($_POST['uname']) ||
+                        empty($_POST['fname']) ||
+                        empty($_POST['lname']) ||
+                        empty($_POST['email']) ||
+                        empty($_POST['password']) ||
+                        empty($_POST['phone'])
+                    ) {
+                        $error = '<div class="alert alert-danger alert-dismissible fade show">
 																<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 																<strong>All fields Required!</strong>
 															</div>';
-		}
-	else
-	{
-		
+                    } else {
 
-	
-	
-    if(!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) // Validate email address
-    {
-       	$error = '<div class="alert alert-danger alert-dismissible fade show">
+
+
+
+                        if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) // Validate email address
+                        {
+                            $error = '<div class="alert alert-danger alert-dismissible fade show">
 																<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 																<strong>invalid email!</strong>
 															</div>';
-    }
-	elseif(strlen($_POST['password']) < 6)
-	{
-		$error = '<div class="alert alert-danger alert-dismissible fade show">
+                        } elseif (strlen($_POST['password']) < 6) {
+                            $error = '<div class="alert alert-danger alert-dismissible fade show">
 																<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 																<strong>Password must be >=6!</strong>
 															</div>';
-	}
-	
-	elseif(strlen($_POST['phone']) < 10)
-	{
-		$error = '<div class="alert alert-danger alert-dismissible fade show">
+                        } elseif (strlen($_POST['phone']) < 10) {
+                            $error = '<div class="alert alert-danger alert-dismissible fade show">
 																<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 																<strong>invalid phone!</strong>
 															</div>';
-	}
-	
-	else{
-       
-	
-	$mql = "update users set username='$_POST[uname]', f_name='$_POST[fname]', l_name='$_POST[lname]',email='$_POST[email]',phone='$_POST[phone]',password='".md5($_POST['password'])."' where u_id='$_GET[user_upd]' ";
-	mysqli_query($db, $mql);
-			$success = 	'<div class="alert alert-success alert-dismissible fade show">
+                        } else {
+
+
+                            $mql = "update users set username='$_POST[uname]', f_name='$_POST[fname]', l_name='$_POST[lname]',email='$_POST[email]',phone='$_POST[phone]',password='" . md5($_POST['password']) . "' where u_id='$_GET[user_upd]' ";
+                            mysqli_query($db, $mql);
+                            $success = '<div class="alert alert-success alert-dismissible fade show">
 																<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 																<strong>User Updated!</strong></div>';
-	
-    }
-	}
 
-}
+                        }
+                    }
 
-?>
+                }
+
+                ?>
 
 
                 <head>
@@ -200,13 +191,13 @@ if(isset($_POST['submit'] ))
 
 
 
-                                        <?php  
-									        echo $error;
-									        echo $success; 
-											
-											
-											
-											?>
+                                        <?php
+                                        echo $error;
+                                        echo $success;
+
+
+
+                                        ?>
 
 
 
@@ -216,9 +207,9 @@ if(isset($_POST['submit'] ))
                                                     <h4 class="m-b-0 text-white">Update Users</h4>
                                                 </div>
                                                 <div class="card-body">
-                                                    <?php $ssql ="select * from users where u_id='$_GET[user_upd]'";
-													$res=mysqli_query($db, $ssql); 
-													$newrow=mysqli_fetch_array($res);?>
+                                                    <?php $ssql = "select * from users where u_id='$_GET[user_upd]'";
+                                                    $res = mysqli_query($db, $ssql);
+                                                    $newrow = mysqli_fetch_array($res); ?>
                                                     <form action='' method='post'>
                                                         <div class="form-body">
 
@@ -227,14 +218,14 @@ if(isset($_POST['submit'] ))
                                                                 <div class="col-md-6">
                                                                     <div class="form-group">
                                                                         <label class="control-label">Username</label>
-                                                                        <input type="text" name="uname" class="form-control" value="<?php  echo $newrow['username']; ?>" placeholder="username">
+                                                                        <input type="text" name="uname" class="form-control" value="<?php echo $newrow['username']; ?>" placeholder="username">
                                                                     </div>
                                                                 </div>
 
                                                                 <div class="col-md-6">
                                                                     <div class="form-group has-danger">
                                                                         <label class="control-label">First-Name</label>
-                                                                        <input type="text" name="fname" class="form-control form-control-danger" value="<?php  echo $newrow['f_name'];  ?>" placeholder="jon">
+                                                                        <input type="text" name="fname" class="form-control form-control-danger" value="<?php echo $newrow['f_name']; ?>" placeholder="jon">
                                                                     </div>
                                                                 </div>
 
@@ -245,14 +236,14 @@ if(isset($_POST['submit'] ))
                                                                 <div class="col-md-6">
                                                                     <div class="form-group">
                                                                         <label class="control-label">Last-Name </label>
-                                                                        <input type="text" name="lname" class="form-control" placeholder="doe" value="<?php  echo $newrow['l_name']; ?>">
+                                                                        <input type="text" name="lname" class="form-control" placeholder="doe" value="<?php echo $newrow['l_name']; ?>">
                                                                     </div>
                                                                 </div>
 
                                                                 <div class="col-md-6">
                                                                     <div class="form-group has-danger">
                                                                         <label class="control-label">Email</label>
-                                                                        <input type="text" name="email" class="form-control form-control-danger" value="<?php  echo $newrow['email'];  ?>" placeholder="example@gmail.com">
+                                                                        <input type="text" name="email" class="form-control form-control-danger" value="<?php echo $newrow['email']; ?>" placeholder="example@gmail.com">
                                                                     </div>
                                                                 </div>
 
@@ -262,14 +253,14 @@ if(isset($_POST['submit'] ))
                                                                 <div class="col-md-6">
                                                                     <div class="form-group">
                                                                         <label class="control-label">Password</label>
-                                                                        <input type="text" name="password" class="form-control form-control-danger" value="<?php  echo $newrow['password'];  ?>" placeholder="password">
+                                                                        <input type="text" name="password" class="form-control form-control-danger" value="<?php echo $newrow['password']; ?>" placeholder="password">
                                                                     </div>
                                                                 </div>
 
                                                                 <div class="col-md-6">
                                                                     <div class="form-group">
                                                                         <label class="control-label">Phone</label>
-                                                                        <input type="text" name="phone" class="form-control form-control-danger" value="<?php  echo $newrow['phone'];  ?>" placeholder="phone">
+                                                                        <input type="text" name="phone" class="form-control form-control-danger" value="<?php echo $newrow['phone']; ?>" placeholder="phone">
                                                                     </div>
                                                                 </div>
                                                             </div>
