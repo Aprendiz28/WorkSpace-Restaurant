@@ -41,7 +41,9 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`adm_id`, `username`, `password`, `email`, `code`, `date`) VALUES
-(1, 'ccbd', '0d89ec971a7bcfe26d68c177a9d53334', 'admin@gmail.com', '', '2023-02-22 07:18:13');
+(1, 'ccbd', 'xd', 'admin@gmail.com', '', '2023-02-22 07:18:13');
+
+
 
 -- --------------------------------------------------------
 
