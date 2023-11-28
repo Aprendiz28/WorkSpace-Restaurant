@@ -191,7 +191,6 @@ if (empty($_SESSION["user_id"])) {
         <?php include "include/footer.php" ?>
         </div>
         </div>
-
         <script src="js/jquery.min.js"></script>
         <script src="js/tether.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
