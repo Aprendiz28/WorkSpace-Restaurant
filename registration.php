@@ -77,9 +77,9 @@ if (isset($_POST['submit'])) {
                             width="18%"> </a>
                     <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                         <ul class="nav navbar-nav">
-                            <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span
+                            <li class="nav-item"> <a class="nav-link active" href="index.php">Inicio <span
                                         class="sr-only">(current)</span></a> </li>
-                            <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Restaurants <span
+                            <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Restaurantes <span
                                         class="sr-only"></span></a> </li>
 
                             <?php

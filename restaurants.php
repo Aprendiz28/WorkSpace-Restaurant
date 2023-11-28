@@ -32,9 +32,9 @@ session_start();
                         width="18%"> </a>
                 <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                     <ul class="nav navbar-nav">
-                        <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span
+                        <li class="nav-item"> <a class="nav-link active" href="index.php">Inicio<span
                                     class="sr-only">(current)</span></a> </li>
-                        <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Restaurants <span
+                        <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Restaurantes <span
                                     class="sr-only"></span></a> </li>
 
                         <?php
@@ -59,9 +59,9 @@ session_start();
             <div class="container">
                 <ul class="row links">
 
-                    <li class="col-xs-12 col-sm-4 link-item active"><span>1</span><a href="#">Choose Restaurant</a></li>
-                    <li class="col-xs-12 col-sm-4 link-item"><span>2</span><a href="#">Pick Your favorite food</a></li>
-                    <li class="col-xs-12 col-sm-4 link-item"><span>3</span><a href="#">Order and Pay</a></li>
+                    <li class="col-xs-12 col-sm-4 link-item active"><span>1</span><a href="#">Elige Restaurante</a></li>
+                    <li class="col-xs-12 col-sm-4 link-item"><span>2</span><a href="#">Elige tu comida favorita</a></li>
+                    <li class="col-xs-12 col-sm-4 link-item"><span>3</span><a href="#">Ordene y pague</a></li>
                 </ul>
             </div>
         </div>
