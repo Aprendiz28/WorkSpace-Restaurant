@@ -156,24 +156,10 @@ if (isset($_POST['submit'])) {
         </div>
 
         <div class="page-wrapper">
-            <div style="padding-top: 10px;">
-                <marquee onMouseOver="this.stop()" onMouseOut="this.start()"> <a
-                        href="">Code Camp BD</a> is the sole owner of this
-            </div>
-
-
-
-
             <div class="container-fluid">
                 <!-- Start Page Content -->
-
-
                 <?php echo $error;
                 echo $success; ?>
-
-
-
-
                 <div class="col-lg-12">
                     <div class="card card-outline-primary">
                         <div class="card-header">
@@ -218,17 +204,7 @@ if (isset($_POST['submit'])) {
                                             </div>
                                         </div>
                                     </div>
-
-
-
                                     <div class="row">
-
-
-
-
-
-
-
                                         <div class="col-md-12">
                                             <div class="form-group">
                                                 <label class="control-label">Seleccionar Restaurante</label>
@@ -240,20 +216,12 @@ if (isset($_POST['submit'])) {
                                                     while ($row = mysqli_fetch_array($res)) {
                                                         echo ' <option value="' . $row['rs_id'] . '">' . $row['title'] . '</option>';
                                                         ;
-                                                    }
-
-                                                    ?>
+                                                    }?>
                                                 </select>
                                             </div>
                                         </div>
-
-
-
                                     </div>
-
                                 </div>
-
-
                         </div>
                         <div class="form-actions">
                             <input type="submit" name="submit" class="btn btn-primary" value="Save">
@@ -261,8 +229,6 @@ if (isset($_POST['submit'])) {
                         </div>
                         </form>
                     </div>
-
-
                 </div>
             </div>
             <?php include "include/footer.php" ?>
@@ -270,7 +236,6 @@ if (isset($_POST['submit'])) {
     </div>
     </div>
     </div>
-
     <script src="js/lib/jquery/jquery.min.js"></script>
     <script src="js/lib/bootstrap/js/popper.min.js"></script>
     <script src="js/lib/bootstrap/js/bootstrap.min.js"></script>
@@ -278,8 +243,6 @@ if (isset($_POST['submit'])) {
     <script src="js/sidebarmenu.js"></script>
     <script src="js/lib/sticky-kit-master/dist/sticky-kit.min.js"></script>
     <script src="js/custom.min.js"></script>
-
-
 </body>
 
 </html>

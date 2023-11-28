@@ -203,14 +203,6 @@ if (isset($_POST['submit'])) {
         </div>
 
         <div class="page-wrapper">
-            <div style="padding-top: 10px;">
-                <marquee onMouseOver="this.stop()" onMouseOut="this.start()"> <a  
-                        href="https://www.youtube.com/@codecampbdofficial">Code Camp BD</a>.</marquee>
-            </div>
-
-
-
-
             <div class="container-fluid">
 
 
