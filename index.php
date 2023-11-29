@@ -144,7 +144,7 @@ session_start();
 
         
             <div class="text-xs-center">
-                <h2>Fácil de ordenarr</h2>
+                <h2>Fácil de ordenar</h2>
                 <div class="row how-it-works-solution">
                     <div class="col-xs-12 col-sm-12 col-md-4 how-it-works-steps white-txt col1">
                         <div class="how-it-works-wrap">
@@ -160,8 +160,8 @@ session_start();
                                         </g>
                                     </svg>
                                 </div>
-                                <h3>Choose a restaurant</h3>
-                                <p>We"ve got your covered with menus from a variety of delivery restaurants online.</p>
+                                <h3>Elige un restaurante</h3>
+                                <p>Lo cubrimos con menús de una variedad de restaurantes de entrega a domicilio en línea.</p>
                             </div>
                         </div>
                     </div>
@@ -177,8 +177,8 @@ session_start();
                                     </g>
                                 </svg>
                             </div>
-                            <h3>Choose a dish</h3>
-                            <p>We"ve got your covered with a variety of delivery restaurants online.</p>
+                            <h3>Elige un plato</h3>
+                            <p>Lo tenemos cubierto con una variedad de restaurantes de entrega a domicilio en línea.</p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-4 how-it-works-steps white-txt col3">
@@ -191,15 +191,15 @@ session_start();
                                         fill="#FFF" />
                                 </svg>
                             </div>
-                            <h3>Pick up or Delivery</h3>
-                            <p>Get your food delivered! And enjoy your meal! </p>
+                            <h3>Recogida o Entrega</h3>
+                            <p>¡Recibe tu comida a domicilio! Y disfruta tu comida! </p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <p class="pay-info">Cash on Delivery</p>
+                    <p class="pay-info">Contra reembolso</p>
                 </div>
             </div>
         </div>
@@ -210,14 +210,14 @@ session_start();
             <div class="row">
                 <div class="col-sm-4">
                     <div class="title-block pull-left">
-                        <h4>Featured Restaurants</h4>
+                        <h4>Restaurantes destacados</h4>
                     </div>
                 </div>
                 <div class="col-sm-8">
                     <div class="restaurants-filter pull-right">
                         <nav class="primary pull-left">
                             <ul>
-                                <li><a href="#" class="selected" data-filter="*">all</a> </li>
+                                <li><a href="#" class="selected" data-filter="*">All</a> </li>
                                 <?php
                                 $res = mysqli_query($db, "select * from res_category");
                                 while ($row = mysqli_fetch_array($res)) {
