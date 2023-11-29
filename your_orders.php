@@ -200,12 +200,6 @@ if (empty($_SESSION['user_id'])) {
                                                             <?php
                                                             }
                                                             ?>
-
-
-
-
-
-
                                                         </td>
                                                         <td data-column="Date">
                                                             <?php echo $row['date']; ?>
@@ -218,40 +212,19 @@ if (empty($_SESSION['user_id'])) {
                                                         </td>
 
                                                     </tr>
-
-
                                                 <?php }
                                             } ?>
-
-
-
-
                                         </tbody>
                                     </table>
-
-
-
                                 </div>
-
                             </div>
-
-
-
                         </div>
-
-
-
                     </div>
                 </div>
         </div>
         </section>
-
-
         <?php include "include/footer.php" ?>
-
         </div>
-
-
         <script src="js/jquery.min.js"></script>
         <script src="js/tether.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
