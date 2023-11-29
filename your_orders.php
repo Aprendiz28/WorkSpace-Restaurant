@@ -196,7 +196,7 @@ if (empty($_SESSION['user_id'])) {
                                                             if ($status == "rejected") {
                                                                 ?>
                                                                 <button type="button" class="btn btn-danger"> <i
-                                                                        class="fa fa-close"></i> Cancelled</button>
+                                                                        class="fa fa-close"></i> Cancelado</button>
                                                             <?php
                                                             }
                                                             ?>

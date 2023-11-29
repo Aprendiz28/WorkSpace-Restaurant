@@ -191,7 +191,7 @@ session_start();
                                         fill="#FFF" />
                                 </svg>
                             </div>
-                            <h3>Recogida o Entrega</h3>
+                            <h3>Recogida o Entrega.</h3>
                             <p>¡Recibe tu comida a domicilio! Y disfruta tu comida! </p>
                         </div>
                     </div>
@@ -210,7 +210,7 @@ session_start();
             <div class="row">
                 <div class="col-sm-4">
                     <div class="title-block pull-left">
-                        <h4>Restaurantes destacados</h4>
+                        <h4>Restaurantes destacados.</h4>
                     </div>
                 </div>
                 <div class="col-sm-8">
