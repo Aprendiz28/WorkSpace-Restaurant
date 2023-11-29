@@ -48,13 +48,6 @@ if (isset($_POST['submit'])) {
     }
 }
 
-
-
-
-
-
-
-
 ?>
 <head>
     <meta charset="utf-8">
@@ -63,7 +56,7 @@ if (isset($_POST['submit'])) {
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
-    <title>Add Menu</title>
+    <title>Agregar menú</title>
     <link href="css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link href="css/helper.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -91,7 +84,7 @@ if (isset($_POST['submit'])) {
                             <div class="dropdown-menu dropdown-menu-right mailbox animated zoomIn">
                                 <ul>
                                     <li>
-                                        <div class="drop-title">Notifications</div>
+                                        <div class="drop-title">Notificaciones</div>
                                     </li>
 
                                     <li>
