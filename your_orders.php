@@ -137,12 +137,12 @@ if (empty($_SESSION['user_id'])) {
                                         <thead style="background: #404040; color:white;">
                                             <tr>
 
-                                                <th>Item</th>
-                                                <th>Quantity</th>
-                                                <th>Price</th>
-                                                <th>Status</th>
+                                                <th>Artículo</th>
+                                                <th>Cantidad</th>
+                                                <th>Precio</th>
+                                                <th>Estado</th>
                                                 <th>Date</th>
-                                                <th>Action</th>
+                                                <th>Acción</th>
 
                                             </tr>
                                         </thead>
@@ -175,7 +175,7 @@ if (empty($_SESSION['user_id'])) {
                                                             if ($status == "" or $status == "NULL") {
                                                                 ?>
                                                                 <button type="button" class="btn btn-info"><span class="fa fa-bars"
-                                                                        aria-hidden="true"></span> Dispatch</button>
+                                                                        aria-hidden="true"></span>Despacho</button>
                                                             <?php
                                                             }
                                                             if ($status == "in process") { ?>

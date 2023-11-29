@@ -114,7 +114,7 @@ include_once 'product-action.php';
                     <div class="widget widget-cart">
                         <div class="widget-heading">
                             <h3 class="widget-title text-dark">
-                                Your Cart
+                                Tu carrito
                             </h3>
 
 
@@ -166,20 +166,20 @@ include_once 'product-action.php';
                                 <h3 class="value"><strong>
                                         <?php echo "$" . $item_total; ?>
                                     </strong></h3>
-                                <p>Free Delivery!</p>
+                                <p>!</p>
                                 <?php
                                 if ($item_total == 0) {
                                     ?>
 
 
                                     <a href="checkout.php?res_id=<?php echo $_GET['res_id']; ?>&action=check"
-                                        class="btn btn-danger btn-lg disabled">Checkout</a>
+                                        class="btn btn-danger btn-lg disabled">Verificar</a>
 
                                     <?php
                                 } else {
                                     ?>
                                     <a href="checkout.php?res_id=<?php echo $_GET['res_id']; ?>&action=check"
-                                        class="btn btn-success btn-lg active">Checkout</a>
+                                        class="btn btn-success btn-lg active">Verificar</a>
                                     <?php
                                 }
                                 ?>
@@ -245,7 +245,7 @@ include_once 'product-action.php';
                                                 <input class="b-r-0" type="text" name="quantity" style="margin-left:30px;"
                                                     value="1" size="2" />
                                                 <input type="submit" class="btn theme-btn" style="margin-left:40px;"
-                                                    value="Add To Cart" />
+                                                    value="Añadir a la cesta" />
                                             </div>
                                             </form>
                                         </div>

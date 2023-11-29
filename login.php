@@ -96,7 +96,7 @@
 
                     </div>
                     <div class="form">
-                        <h2>Login to your account</h2>
+                        <h2>Ingrese a su cuenta</h2>
                         <span style="color:red;">
                             <?php echo $message; ?>
                         </span>
@@ -104,14 +104,14 @@
                             <?php echo $success; ?>
                         </span>
                         <form action="" method="post">
-                            <input type="text" placeholder="Username" name="username" />
-                            <input type="password" placeholder="Password" name="password" />
+                            <input type="text" placeholder="Nombre de usuario" name="username" />
+                            <input type="password" placeholder="Contraseña" name="password" />
                             <input type="submit" id="buttn" name="submit" value="Login" />
                         </form>
                     </div>
 
-                    <div class="cta">Not registered?<a href="registration.php" style="color:#5c4ac7;"> Create an
-                            account</a></div>
+                    <div class="cta">No registrado?<a href="registration.php" style="color:#5c4ac7;">Crear una
+                            cuenta</a></div>
                 </div>
                 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
                 <div class="container-fluid pt-3">

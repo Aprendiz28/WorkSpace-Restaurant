@@ -11,7 +11,7 @@ function function_alert()
 {
 
 
-    echo "<script>alert('Thank you. Your Order has been placed!');</script>";
+    echo "<script>alert('Gracias. Su orden ha sido puesta!');</script>";
     echo "<script>window.location.replace('your_orders.php');</script>";
 }
 
@@ -35,7 +35,7 @@ if (empty($_SESSION["user_id"])) {
             unset($item["title"]);
             unset($item["quantity"]);
             unset($item["price"]);
-            $success = "Thank you. Your order has been placed!";
+            $success = "Gracias. Su orden ha sido puesta!";
 
             function_alert();
 
@@ -143,7 +143,7 @@ if (empty($_SESSION["user_id"])) {
                                                             </tr>
                                                             <tr>
                                                                 <td>Gastos de envíos</td>
-                                                                <td>Free</td>
+                                                                <td>Gratis</td>
                                                             </tr>
                                                             <tr>
                                                                 <td class="text-color"><strong>Total</strong></td>
@@ -176,8 +176,8 @@ if (empty($_SESSION["user_id"])) {
                                                     </li>
                                                 </ul>
                                                 <p class="text-xs-center"> <input type="submit"
-                                                        onclick="return confirm('Do you want to confirm the order?');"
-                                                        name="submit" class="btn btn-success btn-block" value="Order Now">
+                                                        onclick="return confirm('¿Quieres confirmar el pedido?');"
+                                                        name="submit" class="btn btn-success btn-block" value="Ordene ahora">
                                                 </p>
                                             </div>
                                 </form>
@@ -192,7 +192,7 @@ if (empty($_SESSION["user_id"])) {
         </div>
         </div>
         <script src="js/jquery.min.js"></script>
-        <script src="js/tether.min.js"></script>
+        <script src="js/tether.min.js"></script>    
         <script src="js/bootstrap.min.js"></script>
         <script src="js/animsition.min.js"></script>
         <script src="js/bootstrap-slider.min.js"></script>
