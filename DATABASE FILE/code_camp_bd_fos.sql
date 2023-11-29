@@ -179,7 +179,7 @@ CREATE TABLE `users_orders` (
   `u_id` int NOT NULL,
   `title` varchar(222) NOT NULL,
   `quantity` int NOT NULL,
-  `price` decimal(10,2) NOT NULL,
+  `price` decimal(10,3) NOT NULL,
   `status` varchar(222) DEFAULT NULL,
   `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
