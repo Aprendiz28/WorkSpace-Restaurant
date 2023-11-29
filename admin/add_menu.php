@@ -26,11 +26,9 @@ if (isset($_POST['submit'])) {
 																<strong>Max Image Size is 1024kb!</strong> Try different Image.
 															</div>';
             } else {
-
                 $sql = "INSERT INTO dishes(rs_id,title,slogan,price,img) VALUE('" . $_POST['res_name'] . "','" . $_POST['d_name'] . "','" . $_POST['about'] . "','" . $_POST['price'] . "','" . $fnew . "')"; // store the submited data ino the database :images
                 mysqli_query($db, $sql);
                 move_uploaded_file($temp, $store);
-
                 $success = '<div class="alert alert-success alert-dismissible fade show">
 																<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 																 New Dish Added Successfully.

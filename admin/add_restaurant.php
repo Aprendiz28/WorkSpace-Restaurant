@@ -40,7 +40,6 @@ if (isset($_POST['submit'])) {
 																<strong>select image</strong>
 															</div>';
         } else {
-
             $error = '<div class="alert alert-danger alert-dismissible fade show">
 																<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 																<strong>invalid extension!</strong>png, jpg, Gif are accepted.
