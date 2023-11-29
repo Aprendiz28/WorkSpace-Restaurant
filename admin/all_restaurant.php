@@ -105,7 +105,7 @@ session_start();
                         <div class="col-lg-12">
                             <div class="card card-outline-primary">
                                 <div class="card-header">
-                                    <h4 class="m-b-0 text-white">Todo Restaurante</h4>
+                                    <h4 class="m-b-0 text-white">¡¡Todos los Restaurantes!!</h4>
                                 </div>
                                 <div class="table-responsive m-t-40">
                                     <table id="example23"
@@ -113,7 +113,7 @@ session_start();
                                         cellspacing="0" width="100%">
                                         <thead class="thead-dark">
                                             <tr>
-                                                <th>Category</th>
+                                                <th>Categoría</th>
                                                 <th>Nombre</th>
                                                 <th>Email</th>
                                                 <th>Celular</th>
