@@ -222,11 +222,11 @@ if (isset($_POST['submit'])) {
                                                     <select name="o_days" class="form-control custom-select"
                                                         data-placeholder="Choose a Category" tabindex="1">
                                                         <option>--Seleccione su horario--</option>
-                                                        <option value="Mon-Tue">Mon-Tue</option>
-                                                        <option value="Mon-Wed">Mon-Wed</option>
-                                                        <option value="Mon-Thu">Mon-Thu</option>
-                                                        <option value="Mon-Fri">Mon-Fri</option>
-                                                        <option value="Mon-Sat">Mon-Sat</option>
+                                                        <option value="Mon-Tue">lunes - martes</option>
+                                                        <option value="Mon-Wed">lunes - miercoles</option>
+                                                        <option value="Mon-Thu">lunes - jueves</option>
+                                                        <option value="Mon-Fri">lunes - viernes</option>
+                                                        <option value="Mon-Sat">lunes - Sabado</option>
                                                         <option value="24hr-x7">24hr-x7</option>
                                                     </select>
                                                 </div>
@@ -269,7 +269,7 @@ if (isset($_POST['submit'])) {
                                     </div>
                                 </div>
                                 <div class="form-actions">
-                                    <input type="submit" name="submit" class="btn btn-primary" value="Save">
+                                    <input type="submit" name="submit" class="btn btn-primary" value="Guardar">
                                     <a href="add_restaurant.php" class="btn btn-inverse">Cancel</a>
                                 </div>
                             </form>
