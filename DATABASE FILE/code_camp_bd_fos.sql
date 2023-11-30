@@ -71,16 +71,16 @@ INSERT INTO `dishes` (`d_id`, `rs_id`, `title`, `slogan`, `price`, `img`) VALUES
 (4, 1, 'Patatas Asadas Rellenas', 'Freír las patatas enteras en aceite durante 8-10 minutos o cubrir cada patata con un poco de aceite. Mezclar las cebollas, el ajo, los tomates y los champiñones. Agregue yogur, jengibre, ajo, chiles y cilantro.', '8.00', '62908d393465b.jpg'),
 (5, 2, 'Gamberoni De Espagueti Rosa', 'Espaguetis con gambas en salsa de tomate fresco. Este plato es originario del sur de Italia y con la combinación de langostinos, ajo, guindilla y pasta. Adorne cada uno con la cucharada restante de perejil.', '21.00', '606d7491a9d13.jpg'),
 (6, 2, 'Puré de patatas con queso', 'Puré de papas deliciosamente con queso. El puré definitivo para tu mesa de Acción de Gracias o el acompañamiento perfecto para una cazuela de salchichas veganas. A todos les encantará\'', '5.00', '606d74c416da5.jpg'),
-(7, 2, 'Crispy Chicken Strips', 'Fried chicken strips, served with special honey mustard sauce.', '8.00', '606d74f6ecbbb.jpg'),
-(8, 2, 'Lemon Grilled Chicken And Pasta', 'Marinated rosemary grilled chicken breast served with mashed potatoes and your choice of pasta.', '11.00', '606d752a209c3.jpg'),
-(9, 3, 'Vegetable Fried Rice', 'Chinese rice wok with cabbage, beans, carrots, and spring onions.', '5.00', '606d7575798fb.jpg'),
-(10, 3, 'Prawn Crackers', '12 pieces deep-fried prawn crackers', '7.00', '606d75a7e21ec.jpg'),
-(11, 3, 'Spring Rolls', 'Lightly seasoned shredded cabbage, onion and carrots, wrapped in house made spring roll wrappers, deep fried to golden brown.', '6.00', '606d75ce105d0.jpg'),
-(12, 3, 'Manchurian Chicken', 'Chicken pieces slow cooked with spring onions in our house made manchurian style sauce.', '11.00', '606d7600dc54c.jpg'),
-(13, 4, ' Buffalo Wings', 'Fried chicken wings tossed in spicy Buffalo sauce served with crisp celery sticks and Blue cheese dip.', '11.00', '606d765f69a19.jpg'),
-(14, 4, 'Mac N Cheese Bites', 'Served with our traditional spicy queso and marinara sauce.', '9.00', '606d768a1b2a1.jpg'),
-(15, 4, 'Signature Potato Twisters', 'Spiral sliced potatoes, topped with our traditional spicy queso, Monterey Jack cheese, pico de gallo, sour cream and fresh cilantro.', '6.00', '606d76ad0c0cb.jpg'),
-(16, 4, 'Meatballs Penne Pasta', 'Garlic-herb beef meatballs tossed in our house-made marinara sauce and penne pasta topped with fresh parsley.', '10.00', '606d76eedbb99.jpg');
+(7, 2, 'Tiras De Pollo Crujientes', 'Tiras de pollo frito, servidas con salsa especial de mostaza y miel.', '8.00', '606d74f6ecbbb.jpg'),
+(8, 2, 'Pollo A La Parrilla Con Limón Y Pasta', 'Pechuga de pollo marinada al romero y asada, servida con puré de papas y pasta de su elección.', '11.00', '606d752a209c3.jpg'),
+(9, 3, 'Arroz de verdura', 'Wok de arroz chino con repollo, frijoles, zanahorias y cebolletas.', '5.00', '606d7575798fb.jpg'),
+(10, 3, 'Galletas saladas de gambas', '12 piezas de galletas de gambas fritas', '7.00', '606d75a7e21ec.jpg'),
+(11, 3, 'Rollitos de primavera', 'Repollo, cebolla y zanahorias rallados ligeramente condimentados, envueltos en envoltorios de rollitos de primavera hechos en casa y fritos hasta que estén dorados.', '6.00', '606d75ce105d0.jpg'),
+(12, 3, 'Pollo de Manchuria', 'Trozos de pollo cocinados a fuego lento con cebolletas en nuestra salsa casera estilo manchuriano.', '11.00', '606d7600dc54c.jpg'),
+(13, 4, 'Alas de búfalo', 'Alitas de pollo fritas bañadas en salsa Buffalo picante, servidas con palitos de apio crujientes y salsa de queso azul.', '11.00', '606d765f69a19.jpg'),
+(14, 4, 'Bocaditos de macarrones con queso', 'Servido con nuestro tradicional queso picante y salsa marinara.', '9.00', '606d768a1b2a1.jpg'),
+(15, 4, 'Tornados de papa exclusivos', 'Papas en rodajas en espiral, cubiertas con nuestro tradicional queso picante, queso Monterey Jack, pico de gallo, crema agria y cilantro fresco.', '6.00', '606d76ad0c0cb.jpg'),
+(16, 4, 'Pasta Penne Con Albóndigas', 'Albóndigas de carne con ajo y hierbas, bañadas en nuestra salsa marinara casera y pasta penne cubierta con perejil fresco.', '10.00', '606d76eedbb99.jpg');
 
 -- --------------------------------------------------------
 
