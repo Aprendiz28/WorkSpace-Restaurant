@@ -65,12 +65,12 @@ CREATE TABLE `dishes` (
 --
 
 INSERT INTO `dishes` (`d_id`, `rs_id`, `title`, `slogan`, `price`, `img`) VALUES
-(1, 1, 'Empanadas de cordero de Yorkshire', 'Lamb patties which melt in your mouth, and are quick and easy to make. Served hot with a crisp salad.', '14.00', '62908867a48e4.jpg'),
-(2, 1, 'Langosta Thermidor', 'Lobster Thermidor is a French dish of lobster meat cooked in a rich wine sauce, stuffed back into a lobster shell, and browned.', '36.00', '629089fee52b9.jpg'),
-(3, 4, 'Pollo Madeira', 'Chicken Madeira, like Chicken Marsala, is made with chicken, mushrooms, and a special fortified wine. But, the wines are different;', '23.00', '62908bdf2f581.jpg'),
-(4, 1, 'Patatas Asadas Rellenas', 'Deep fry whole potatoes in oil for 8-10 minutes or coat each potato with little oil. Mix the onions, garlic, tomatoes and mushrooms. Add yoghurt, ginger, garlic, chillies, coriander', '8.00', '62908d393465b.jpg'),
-(5, 2, 'Gamberoni De Espagueti Rosa', 'Spaghetti with prawns in a fresh tomato sauce. This dish originates from Southern Italy and with the combination of prawns, garlic, chilli and pasta. Garnish each with remaining tablespoon parsley.', '21.00', '606d7491a9d13.jpg'),
-(6, 2, 'Puré de patatas con queso', 'Deliciously Cheesy Mashed Potato. The ultimate mash for your Thanksgiving table or the perfect accompaniment to vegan sausage casserole. Everyone will love it\'s fluffy, cheesy.', '5.00', '606d74c416da5.jpg'),
+(1, 1, 'Empanadas de cordero de Yorkshire', 'Empanadas de cordero que se deshacen en la boca y son rápidas y fáciles de hacer. Servido caliente con una ensalada crujiente.', '14.00', '62908867a48e4.jpg'),
+(2, 1, 'Langosta Thermidor', 'es un plato francés de carne de langosta cocinada en una rica salsa de vino, rellenada con una concha de langosta y dorada.', '36.00', '629089fee52b9.jpg'),
+(3, 4, 'Pollo Madeira', 'El pollo Madeira, al igual que el pollo Marsala, se elabora con pollo, champiñones y un vino fortificado especial Pero los vinos son diferentes.', '23.00', '62908bdf2f581.jpg'),
+(4, 1, 'Patatas Asadas Rellenas', 'Freír las patatas enteras en aceite durante 8-10 minutos o cubrir cada patata con un poco de aceite. Mezclar las cebollas, el ajo, los tomates y los champiñones. Agregue yogur, jengibre, ajo, chiles y cilantro.', '8.00', '62908d393465b.jpg'),
+(5, 2, 'Gamberoni De Espagueti Rosa', 'Espaguetis con gambas en salsa de tomate fresco. Este plato es originario del sur de Italia y con la combinación de langostinos, ajo, guindilla y pasta. Adorne cada uno con la cucharada restante de perejil.', '21.00', '606d7491a9d13.jpg'),
+(6, 2, 'Puré de patatas con queso', 'Puré de papas deliciosamente con queso. El puré definitivo para tu mesa de Acción de Gracias o el acompañamiento perfecto para una cazuela de salchichas veganas. A todos les encantará\'', '5.00', '606d74c416da5.jpg'),
 (7, 2, 'Crispy Chicken Strips', 'Fried chicken strips, served with special honey mustard sauce.', '8.00', '606d74f6ecbbb.jpg'),
 (8, 2, 'Lemon Grilled Chicken And Pasta', 'Marinated rosemary grilled chicken breast served with mashed potatoes and your choice of pasta.', '11.00', '606d752a209c3.jpg'),
 (9, 3, 'Vegetable Fried Rice', 'Chinese rice wok with cabbage, beans, carrots, and spring onions.', '5.00', '606d7575798fb.jpg'),
