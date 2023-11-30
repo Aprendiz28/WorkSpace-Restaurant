@@ -85,7 +85,7 @@ if (isset($_POST['submit'])) {
                             <?php
                             if (empty($_SESSION["user_id"])) {
                                 echo '<li class="nav-item"><a href="login.php" class="nav-link active">Login</a> </li>
-							  <li class="nav-item"><a href="registration.php" class="nav-link active">Register</a> </li>';
+							  <li class="nav-item"><a href="registration.php" class="nav-link active">Registrar</a> </li>';
                             } else {
 
 
