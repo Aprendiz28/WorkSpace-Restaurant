@@ -29,6 +29,7 @@
                           <p>Barranquilla - Malambo Atlantico.</p>
                           <h5>Brandon Wilches - Contacto: +57 3204026146</a></h5>
                           <h5>Ivan villalobos - Contacto: +57 3015271806</a></h5>
+                          <h5>Hader donado - Contacto: +57 3003319020</a></h5>
                       </div>
                       <div class="col-xs-12 col-sm-5 additional-info color-gray">
                           <h5>Información adicional</h5>
