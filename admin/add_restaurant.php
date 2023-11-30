@@ -279,7 +279,6 @@ if (isset($_POST['submit'])) {
                 <?php include "include/footer.php" ?>
             </div>
         </div>
-        --POR AQUI ESTUVO DAINER--
     </div>
     </div>
     <script src="js/lib/jquery/jquery.min.js"></script>

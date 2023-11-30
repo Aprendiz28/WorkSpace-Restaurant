@@ -224,7 +224,6 @@ if (isset($_POST['submit'])) {
             </div>
             <?php include "include/footer.php" ?>
         </div>
-        --POR AQUI ESTUVO DAINER--
     </div>
     </div>
     </div>
