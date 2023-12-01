@@ -102,7 +102,7 @@ session_start();
                                     aria-hidden="true"></i><span class="hide-menu">Menu</span></a>
                             <ul aria-expanded="false" class="collapse">
                                 <li><a href="all_menu.php">Todos los menús</a></li>
-                                <li><a href="add_menu.php">Add Menu</a></li>
+                                <li><a href="add_menu.php">Agregar Menu</a></li>
 
 
                             </ul>

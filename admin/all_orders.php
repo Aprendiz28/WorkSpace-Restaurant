@@ -138,20 +138,19 @@ session_start();
                                                     if ($status == "" or $status == "NULL") {
                                                         ?>
                                                         <td> <button type="button" class="btn btn-info"><span class="fa fa-bars"
-                                                                    aria-hidden="true"></span> Dispatch</button></td>
+                                                                    aria-hidden="true"></span> Despacho</button></td>
                                                     <?php
                                                     }
                                                     if ($status == "in process") { ?>
                                                         <td> <button type="button" class="btn btn-warning"><span
-                                                                    class="fa fa-cog fa-spin" aria-hidden="true"></span> On The
-                                                                Way!</button></td>
+                                                                    class="fa fa-cog fa-spin" aria-hidden="true"></span> En camino!</button></td>
                                                         <?php
                                                     }
                                                     if ($status == "closed") {
                                                         ?>
                                                         <td> <button type="button" class="btn btn-primary"><span
                                                                     class="fa fa-check-circle" aria-hidden="true"></span>
-                                                                Delivered</button></td>
+                                                                Entregado</button></td>
                                                     <?php
                                                     }
                                                     ?>
@@ -159,7 +158,7 @@ session_start();
                                                     if ($status == "rejected") {
                                                         ?>
                                                         <td> <button type="button" class="btn btn-danger"> <i
-                                                                    class="fa fa-close"></i> Cancelled</button></td>
+                                                                    class="fa fa-close"></i> Cancelado</button></td>
                                                     <?php
                                                     }
                                                     ?>
@@ -186,7 +185,6 @@ session_start();
                     </div>
                 </div>
             </div>
-            --POR AQUI ESTUVO DAINER--
         </div>
     </div>
     </div>

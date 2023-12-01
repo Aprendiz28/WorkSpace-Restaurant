@@ -215,7 +215,7 @@ if (isset($_POST['submit'])) {
                                 </div>
                         </div>
                         <div class="form-actions">
-                            <input type="submit" name="submit" class="btn btn-primary" value="Save">
+                            <input type="submit" name="submit" class="btn btn-primary" value="Guardar">
                             <a href="add_menu.php" class="btn btn-inverse">Cancel</a>
                         </div>
                         </form>
@@ -224,7 +224,6 @@ if (isset($_POST['submit'])) {
             </div>
             <?php include "include/footer.php" ?>
         </div>
-        --POR AQUI ESTUVO DAINER--
     </div>
     </div>
     </div>

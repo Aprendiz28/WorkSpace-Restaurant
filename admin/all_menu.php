@@ -147,8 +147,6 @@ session_start();
                             </div>
                         </div>
                     </div>
-                    --POR AQUI ESTUVO DAINER--
-
                 </div>
             </div>
         </div>
