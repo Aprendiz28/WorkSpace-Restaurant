@@ -17,7 +17,7 @@ if (empty($_SESSION['user_id'])) {
         <meta name="description" content="">
         <meta name="author" content="">
         <link rel="icon" href="#">
-        <title>My Orders</title>
+        <title>Mis ordenes</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/font-awesome.min.css" rel="stylesheet">
         <link href="css/animsition.min.css" rel="stylesheet">
@@ -180,15 +180,14 @@ if (empty($_SESSION['user_id'])) {
                                                             }
                                                             if ($status == "in process") { ?>
                                                                 <button type="button" class="btn btn-warning"><span
-                                                                        class="fa fa-cog fa-spin" aria-hidden="true"></span> On The
-                                                                    Way!</button>
+                                                                        class="fa fa-cog fa-spin" aria-hidden="true"></span>¡En camino!</button>
                                                                 <?php
                                                             }
                                                             if ($status == "closed") {
                                                                 ?>
                                                                 <button type="button" class="btn btn-success"><span
                                                                         class="fa fa-check-circle" aria-hidden="true"></span>
-                                                                    Delivered</button>
+                                                                        Entregado</button>
                                                             <?php
                                                             }
                                                             ?>

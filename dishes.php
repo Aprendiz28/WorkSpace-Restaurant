@@ -16,7 +16,7 @@ include_once 'product-action.php';
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="#">
-    <title>Dishes || Online Food Ordering System - Code Camp BD</title>
+    <title>Platos || Sistema de pedidos de alimentos en línea - Code Camp BD</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animsition.min.css" rel="stylesheet">
@@ -303,9 +303,9 @@ include_once 'product-action.php';
                                 <div class="row no-gutter">
                                     <div class="col-xs-7">
                                         <select class="form-control b-r-0" id="exampleSelect2">
-                                            <option>Size SM</option>
-                                            <option>Size LG</option>
-                                            <option>Size XL</option>
+                                            <option>Talla SM</option>
+                                            <option>Tamaño LG</option>
+                                            <option>Talla XL</option>
                                         </select>
                                     </div>
                                     <div class="col-xs-5">
@@ -336,9 +336,9 @@ include_once 'product-action.php';
                                 <div class="row no-gutter">
                                     <div class="col-xs-7">
                                         <select class="form-control b-r-0" id="exampleSelect3">
-                                            <option>Size SM</option>
-                                            <option>Size LG</option>
-                                            <option>Size XL</option>
+                                            <option>Talla SM</option>
+                                            <option>Talla LG</option>
+                                            <option>Talla XL</option>
                                         </select>
                                     </div>
                                     <div class="col-xs-5">
@@ -369,9 +369,9 @@ include_once 'product-action.php';
                                 <div class="row no-gutter">
                                     <div class="col-xs-7">
                                         <select class="form-control b-r-0" id="exampleSelect5">
-                                            <option>Size SM</option>
-                                            <option>Size LG</option>
-                                            <option>Size XL</option>
+                                            <option>Talla SM</option>
+                                            <option>Talla LG</option>
+                                            <option>Talla XL</option>
                                         </select>
                                     </div>
                                     <div class="col-xs-5">
@@ -402,9 +402,9 @@ include_once 'product-action.php';
                                 <div class="row no-gutter">
                                     <div class="col-xs-7">
                                         <select class="form-control b-r-0" id="exampleSelect6">
-                                            <option>Size SM</option>
-                                            <option>Size LG</option>
-                                            <option>Size XL</option>
+                                            <option>Talla SM</option>
+                                            <option>Talla LG</option>
+                                            <option>Talla XL</option>
                                         </select>
                                     </div>
                                     <div class="col-xs-5">
@@ -419,7 +419,7 @@ include_once 'product-action.php';
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn theme-btn">Add To Cart</button>
+                    <button type="button" class="btn theme-btn">Añadir a la cesta</button>
                 </div>
             </div>
         </div>
