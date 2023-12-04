@@ -15,8 +15,8 @@ if (isset($_POST['submit'])) {
         empty($_POST['cpassword']) ||
         empty($_POST['cpassword'])
     ) {
-        $message = "All fields must be Required!";
-    } else {
+        $message = "Todos los campos deben ser obligatorios!";
+    } else {    
 
         $check_username = mysqli_query($db, "SELECT username FROM users where username = '" . $_POST['username'] . "' ");
         $check_email = mysqli_query($db, "SELECT email FROM users where email = '" . $_POST['email'] . "' ");
@@ -45,10 +45,7 @@ if (isset($_POST['submit'])) {
             header("refresh:0.1;url=login.php");
         }
     }
-
 }
-
-
 ?>
 
 <head>
@@ -89,7 +86,7 @@ if (isset($_POST['submit'])) {
                             } else {
 
 
-                                echo '<li class="nav-item"><a href="your_orders.php" class="nav-link active">Mis ordenes</a> </li>';
+                                echo '<li class="nav-item"><a href="your_orders.php" class="nav-link active">My Orders</a> </li>';
                                 echo '<li class="nav-item"><a href="logout.php" class="nav-link active">Logout</a> </li>';
                             }
 
