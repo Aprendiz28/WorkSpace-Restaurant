@@ -218,7 +218,7 @@ session_start();
                                                 if ($status == "in process") { ?>
                                                     <td>
                                                         <center><button type="button" class="btn btn-warning"><span
-                                                                    class="fa fa-cog fa-spin" aria-hidden="true"></span>¡En una forma!</button></center>
+                                                                    class="fa fa-cog fa-spin" aria-hidden="true"></span>¡En camino!</button></center>
                                                     </td>
                                                     <?php
                                                 }

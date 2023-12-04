@@ -35,7 +35,7 @@ session_start();
                     <ul class="nav navbar-nav">
                         <li class="nav-item"> <a class="nav-link active" href="index.php">Inicio <span
                                     class="sr-only">(current)</span></a> </li>
-                        <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Restaurante <span
+                        <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Restaurantes <span
                                     class="sr-only"></span></a> </li>
 
                         <?php
@@ -82,7 +82,7 @@ session_start();
                                 </path>
                             </g>
                         </svg>
-                        <h4><span style="color:white;">1. </span>Elige Restaurante</h4>
+                        <h4><span style="color:white;">1. </span>Elige Restaurantes</h4>
                     </div>
                     <div class="step-item step2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewbox="0 0 380.721 380.721">
