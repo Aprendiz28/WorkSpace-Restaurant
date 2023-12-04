@@ -156,9 +156,9 @@ if (empty($_SESSION["user_id"])) {
                                                     <li>
                                                         <label class="custom-control custom-radio  m-b-20">
                                                             <input name="mod" id="radioStacked1" checked value="COD"
-                                                                type="radio" class="custom-control-input"> <span
+                                                                type="radio" class="custom-control-input"> <span    
                                                                 class="custom-control-indicator"></span> <span
-                                                                class="custom-control-description">Contra reembolso</span>
+                                                                class="custom-control-description">Contra entrega</span>
                                                         </label>
                                                     </li>
                                                     <li>

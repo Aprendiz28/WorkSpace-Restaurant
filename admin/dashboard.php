@@ -199,8 +199,8 @@ if (empty($_SESSION["adm_id"])) {
                                                     $result = mysqli_query($db, $sql);
                                                     $rws = mysqli_num_rows($result);
                                                     echo $rws; ?>
-                                                </h2>
-                                                <p class="m-b-0">Procesamiento de pedidos</p>
+                                                </h2>   
+                                                <p class="m-b-0">Pedidos en camino</p>
                                             </div>
                                         </div>
                                     </div>
