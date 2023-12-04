@@ -158,7 +158,7 @@ if (empty($_SESSION["user_id"])) {
                                                             <input name="mod" id="radioStacked1" checked value="COD"
                                                                 type="radio" class="custom-control-input"> <span    
                                                                 class="custom-control-indicator"></span> <span
-                                                                class="custom-control-description">Contra entrega</span>
+                                                                class="custom-control-description">Contraentrega</span>
                                                         </label>
                                                     </li>
                                                     <li>
